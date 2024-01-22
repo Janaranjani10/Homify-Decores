@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homify Decors</title>
+
+    <!-- Style Css Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="profile.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- Fontawesome CDN Link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+
+    <script>
+        let submenu = document.getElementById("subMenu");
+        function toggleMenu() {
+        subMenu.classList.toggle("open-menu");
+        }
+
+        </script>
+</head>
+<body>
+
+    <!-- Header Start -->
+    <div class="header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="index.html"><img src="./images/logo.png" alt=""width="50px" height="40px"></a></div>
+
+                <ul class="like">
+                    <li><a href="index.html" id="first">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#contact">Wishlist</a></li>
+                    <li><a href="#review">Cart</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+            <img src="images/profile.png" onclick="toggleMenu()">
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                     <div class="uer-info">
+                           <img src="images/profile.png">
+                           
+
+                   <hr>
+                  <a href="#" class=" sub-menu-link">
+
+                     <p>My Profile</p>
+                     <span>></span>
+                  </a>
+                  <a href="#" class="sub-menu-link">
+
+                      <span>></span>
+                  </a>
+                      <p>My Order</p>
+                      
+                      <a href="#" class="sub-menu-link">
+                          <span>></span>
+                          <p>Log Out</p>
+                          <a href="#" class="sub-menu-link">
+                              
+                        </a>
+                        <p>Sign Out</p>
+                    </a>
+                    <span>></span>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Header End -->
+
+
+    <section class="pages">
+        <div class="pages-content" style="color: #0909fb;">
+            <div class="row">
+                <a href="offer.html" style="color: #0909fb;">Offers</a>
+            </div>
+            <div class="row">
+                <a href="living.html" style="color: #0909fb;">Living</a>
+            </div>
+            <div class="row">
+                <a href="sofa.html" style="color: #0909fb;">Sofas</a>
+            </div>
+            <div class="row">
+                <a href="Bedroom.html"style="color: #0909fb;">Bedrooms</a>
+            </div>
+            <div class="row">
+                <a href="Study&Office.html"style="color: #0909fb;">Study&Office</a>
+            </div>
+            <div class="row">
+                <a href="Dining.html"style="color: #0909fb;">Dining</a>
+            </div>
+            <div class="row">
+                <a href="tracking page.html" style="color: #0909fb;">Track Order</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Home Section Start -->
+    <div class="home">
+        <div class="main-text">
+            <button id="btn">View More</button>
+        </div>
+    </div>
+    <!-- Home Section End -->
+
+
+
+
+    <!-- Top Section Card Start -->
+    <section class="offers">
+        <div class="offer-content">
+            <div class="row">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Free Delivery</h3>
+               
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-headset"></i>
+                <h3>Support 24/7</h3>
+               
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>30 Day Return</h3>
+               
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Secure Shopping</h3>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Top Section Card End -->
+
+
+
+
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/about-img.png" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Furniture service About us</h3>
+            <p>Welcome to HomifyDecores, where furniture meets finesse.
+               Established with a passion for curated living, we redefine spaces with a blend of style and substance.
+               Our commitment to quality craftsmanship ensures every piece tells a story of enduring elegance.
+               Discover a symphony of designs catering to diverse tastes, each thoughtfully crafted to elevate your home.
+               At HomifyDecores, customer satisfaction is paramount, offering personalized service to turn your vision into reality. 
+               Join us in creating homes that resonate with sophistication and comfort.</p>
+
+            <button id="about-btn">Read More...</button>
+        </div>
+        
+    </section>
+    <!-- About Section End -->
+
+
+
+
+
+    <!-- Product Section Start -->
+    <section class="product" id="product">
+        <div class="main-txt">
+            <h3>Products</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <img src="./images/p1.png" alt="">
+                <div class="card-body">
+                 
+                    <h4>Nevin 3 Seater Chaise Sofa</h4>
+                        <p class="mmm"> ₹ 25,900 </p>
+                        <p class="kkk"> MRP  ₹ 32,500 </p>
+                         <p class="jjj"> (20% 0ff)</p>
+                        
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p2.png" alt="">
+                <div class="card-body">
+                
+                    <h4>Tuscon Sofa Single Seater</h4>
+                    <p>₹ 17,900</p>
+                    <p class="kkk"> MRP ₹ 19,990 </p>
+                        <p class="jjj">  (10% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p4.png" alt="">
+                <div class="card-body">
+                  
+                    <h4>Ollie Accent Chair Single Seater</h4>
+                    <p>₹ 15,900</p>
+                    <p class="kkk"> MRP ₹ 19,000 </p>
+                        <p class="jjj">  (16% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/slide_17.png" alt="">
+                <div class="card-body">
+                  
+                    <h4>Benson Dining Cabinet</h4>
+                    <p>₹ 20,900</p>
+                    <p class="kkk">  MRP ₹ 22,900 </p>
+                        <p class="jjj"> (9% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="row">
+                <img src="./images/slide_12-removebg-preview.png" alt="">
+                <div class="card-body">
+            
+                    <h4>Tampa Center Table</h4>
+                    <p>MRP ₹ 1,390</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/slide_4-removebg-preview.png" alt="">
+                <div class="card-body">
+                   
+                    <h4>Andriana Side Table</h4>
+                    <p>₹ 6,890</p>
+                    <p class="kkk">  MRP ₹ 7,690  </p>
+                        <p class="jjj"> (10% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p7.png" alt="">
+                <div class="card-body">
+                  
+                    <h4>Foster Visitor Chair - Maroon</h4>
+                    <p>₹ 2,990
+                        <p class="kkk">   MRP ₹ 3,890  </p>
+                        <p class="jjj">(23% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/slide_21-removebg-preview.png" alt="">
+                <div class="card-body">
+                   <br>
+                   <br>
+                    <h4>Maniac Study Table with Drawer</h4>
+                    <p>₹ 14,900</p>
+                    <p class="kkk">  MRP ₹ 16,490  </p>
+                        <p class="jjj">(10% 0ff)
+                    </p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Product Section End -->
+
+
+
+
+
+    <!-- Banner Start -->
+    <div class="banner">
+        <div class="banner-content">
+            <h5>Get Discount Up To 50%</h5>
+            <h3>Best Deal For Weak</h3>
+            <p>Get up to 50% off this weak and get offer <br>Don't miss</p>
+            <button><a href="#products">Order</a></button>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+
+
+
+
+    <!-- Sale Products Start -->
+    <section class="product" id="products" style="margin-top: 50px;">
+        <div class="main-txt">
+            <h3>50% off products</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <img src="./images/p9.png" alt="">
+                <div class="card-body">
+                    
+                    <h4>Roxy Sofa 3 Seater</h4>
+                    <p>₹ 15,900</p>
+                    <p class="kkk">   MRP ₹ 19,900 </p>
+                        <p class="jjj">(20% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p10.png" alt="">
+                <div class="card-body">
+                    
+                    <h4>Tuscon Table</h4>
+                    <p>₹ 13,690M</p>
+                    <p class="kkk">  MRP ₹ 14,490 </p>
+                        <p class="jjj">(6% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p11.png" alt="">
+                <div class="card-body">
+                    
+                    <h4>Alicia Genuine Leather</h4>
+                    <p>₹ 30,900</p>
+                    <p class="kkk">  MRP ₹ 35,000 </p>
+                        <p class="jjj">(12% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p12.png" alt="">
+                <div class="card-body">
+                   
+                    <h4>Foster Visitor Chair - Maroon</h4>
+                    <p>₹ 2,990</p>
+                    <p class="kkk">  MRP ₹ 3,890  </p>
+                     <p class="jjj">(23% 0ff)</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Sale Products End -->
+
+
+
+
+
+    <!-- Our Gallary Start -->
+    <div class="gallary">
+        <h3>Our Gallary</h3>
+        <div class="gallary-img">
+            <div class="img1">
+                <img src="./images/g1.png" alt="">
+            </div>
+            <div class="img1">
+                <img src="./images/g2.png" alt="">
+                <img src="./images/g3.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Our Gallary End -->
+
+
+
+
+
+    <!-- Contact Section Start -->
+    
+        <section class="hero">
+          <div class="intro-text">
+            <h3>
+              <span class="hear"> THE MOST DESIRABLE!</span>
+              <br>
+              <br>
+              <br>
+            </h3>
+            <p>
+              Whether you're going for the traditional, minimalism of a classic 
+              penthouse or the rustic, easy-going feel of an ocean-side bungalow, we've got you covered.
+              Pick your favourite style from our artful curations to build your dream home.. Capture the essence of coastal living with our charming ocean-side bungalow options, providing a rustic yet comfortable retreat.
+            </p>
+            <a class="btn red" href="#">Explore</a>
+            <a class="btn blue" href="Slide login form.html">Get Signup</a>
+          </div>
+          <div class="i-frame">
+            <img src="asset/1.jpg"
+              width="560"
+              height="315"
+            >
+            <div class="stand-1"></div>
+            <div class="stand-2"></div>
+          </div>
+        </section>
+
+    <!-- Contact Section End -->
+    <h1 style="text-align: center;color:#ff5e00;font-size: 42px;">Tranding Collection</h1>
+
+<br>
+<br>
+    <section id="slider">
+        <input type="radio" name="slider" id="s1">
+        <input type="radio" name="slider" id="s2">
+        <input type="radio" name="slider" id="s3" checked>
+        <input type="radio" name="slider" id="s4">
+        <input type="radio" name="slider" id="s5">
+        <label for="s1" id="slide1">
+            <img src="images/slide 6.jpg" height="100%" width="100%">
+        </label>
+        <label for="s2" id="slide2">
+                  <img src="bedimg/4.jpg" height="100%" width="100%">
+        </label>
+        <label for="s3" id="slide3">
+                  <img src="dining/5.jpg" height="100%" width="100%">
+        </label>
+        <label for="s5" id="slide5">
+                  <img src="livingimg/2.jpg" height="100%" width="100%">
+        </label>
+        <label for="s4" id="slide4">
+            <img src="sofaimg/15.jpg" height="100%" width="100%">
+  </label>
+      </section>
+    <!-- Review Section Start -->
+    <section class="review" id="review">
+        <div class="main-txt">
+            <h3>Customers <span>Review</span></h3>
+        </div>
+
+        <div class="review-content">
+        <div class="box1">
+        <div class="img">
+            <img src="./images/pic-1.png" alt="">
+        </div>
+        <h3>Elon Musk</h3>
+        <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+        </div>
+        <p></p>
+
+    </div>
+        <div class="box1">
+        <div class="img">
+            <img src="./images/pic-2.png" alt="">
+        </div>
+        <h3>Elon Musk</h3>
+        <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+        </div>
+        <p></p>
+
+    </div>
+        <div class="box1">
+        <div class="img">
+            <img src="./images/pic-3.png" alt="">
+        </div>
+        <h3>Elon Musk</h3>
+        <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+        </div>
+        <p></p>
+
+    </div>
+
+</div>
+
+    </section>
+    <!-- Review Section End -->
+
+    <!-- Footer Start -->
+    <div>
+        <footer>
+          <div class="content">
+            <div class="top">
+              <div class="logo-details">
+                <i class="fab fa-slack"></i>
+                <span class="logo_name" style="color:black;">Homify Decors</span>
+              </div>
+              <div class="media-icons" >
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="link-boxes">
+              <ul class="box">
+                <li class="link_name">Company</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="index.html#adout">About us</a></li>
+                <li><a href="Slide login form.html">Get started</a></li>
+              </ul>
+              <ul class="box">
+                <li class="link_name">Products</li>
+                <li><a href="living.html">Living</a></li>
+                <li><a href="Bedroom.html">Bed room</a></li>
+                <li><a href="Dining.html">Dining</a></li>
+                <li><a href="Study&Office.html">Study&Office</a></li>
+              </ul>
+              <ul class="box">
+                <li class="link_name">Account</li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="Slide login form.html">My account</a></li>
+                <li><a href="#">Preferences</a></li>
+                <li><a href="#">Purchase</a></li>
+              </ul>
+              <ul class="box">
+                <li class="link_name">Available On</li>
+                <li><a href="#">Play Store</a></li>
+                <li><a href="#">Apple Store</a></li>
+              </ul>
+              <ul class="box input-box">
+                <li class="link_name">Subscribe</li>
+                <li><input type="text" placeholder="Enter your email"></li>
+                <li><input type="button" value="Subscribe"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-details">
+            <div class="bottom_text">
+              <span class="copyright_text">
+                Copyright &#169; 2023
+                <a href="#">Homifydecors</a>
+                Created By Janaranjani All Rights Reserved!
+              </span>
+              <span class="policy_terms">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & condition</a>
+              </span>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+    
+    <!-- Footer End -->
+    <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+
+</body>
+</html>
